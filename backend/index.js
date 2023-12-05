@@ -29,7 +29,7 @@ app.use("/api/signup", signUp);
 app.use("/api/signin", signIn);
 
 app.get("/", (req, res) => {
-  res.send("welcome to the todos api...");
+  res.send("The Server is Started at localhost://5000");
 });
 
 const uri = 'mongodb://127.0.0.1:27017/todo';
